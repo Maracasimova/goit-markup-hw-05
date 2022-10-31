@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HW-4</title>
+    <title>HW-5</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -29,8 +29,8 @@
           >
 
           <ul class="site-nav list">
-            <li class="item"><a href="./index.html">Студія</a></li>
-            <li class="item"><a href="./portfolio.html">Портфоліо</a></li>
+            <li class="item page-current"><a href="./index.html" class="link current">Студія</a></li>
+            <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
             <li class="item"><a href="#">Контакти</a></li>
           </ul>
 
@@ -124,7 +124,7 @@
         <div class="container">
           <h3 class="section-title">Чим ми займаємося</h3>
           <ul class="occupation-list list">
-            <li>
+            <li class="occupation-image">
               <img
                 class="image"
                 src="./images/img1.jpg"
@@ -132,8 +132,11 @@
                 width="370"
                 height="294"
               />
+              <div class="occupation-overlay">
+                <p class="occupation-text-overlay">Десктопні додатки</p>
+              </div>
             </li>
-            <li>
+            <li class="occupation-image">
               <img
                 class="image"
                 src="./images/img2.jpg"
@@ -141,8 +144,11 @@
                 width="370"
                 height="294"
               />
+              <div class="occupation-overlay">
+                <p class="occupation-text-overlay">Мобільні додатки</p>
+              </div>
             </li>
-            <li>
+            <li class="occupation-image">
               <img
                 class="image"
                 src="./images/img3.jpg"
@@ -150,6 +156,9 @@
                 width="370"
                 height="294"
               />
+              <div class="occupation-overlay">
+                <p class="occupation-text-overlay">Дизайнерські рішення</p>
+              </div>
             </li>
           </ul>
         </div>
