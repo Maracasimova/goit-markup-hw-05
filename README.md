@@ -1,2 +1,2 @@
 # github-goit-1
-Decorative effects and vector graphics
+Positioned Elements and Animation
